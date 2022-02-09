@@ -1,0 +1,45 @@
+{
+    "meta": "Bengal Tiger Population over the last decade",
+    "data":[
+        {
+            "year":"2005",
+            "population":"8,000"
+        },
+        {
+            "year":"2006",
+            "population":"6,500"
+        },
+        {
+            "year":"2007",
+            "population":"5,250"
+        },
+        {
+            "year":"2008",
+            "population":"4,500"
+        },
+        {
+            "year":"2009",
+            "population":"3,500"
+        },
+        {
+            "year":"2010",
+            "population":"3,150"
+        },
+        {
+            "year":"2012",
+            "population":"2,750"
+        },
+        {
+            "year":"2013",
+            "population":"2,975"
+        },
+        {
+            "year":"2014",
+            "population":"3,350"
+        },
+        {
+            "year":"2015",
+            "population":"3,150"
+        }
+    ]
+}

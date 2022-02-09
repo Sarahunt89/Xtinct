@@ -1,0 +1,1359 @@
+body {
+    background-image: url("Images/bg66.png");
+    font-family: liberation serif;
+    text-align: justify;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #4fc2a8;
+}
+  
+::-webkit-scrollbar-thumb {
+
+    background: #0085e2;
+}
+  
+/* HEADER/NAVBAR */
+
+#navigation {
+    font-weight: 900;
+    font-size:25px;
+    box-shadow:0 0 20px #454148;
+}
+
+.navbar a:hover {
+    color: #4fc2a8
+}
+
+.nav-link {
+    color: #0085e2;
+}
+
+#navbar-logo-words {
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 250px;
+}
+
+#navbar-logo-globe {
+    width: 100px;
+    margin-top: -20px;
+    margin-left: 180px;
+    position: absolute;
+}
+
+#quote {
+    font-size: 40px;
+    font-family: ink free;
+    word-spacing: 10px;
+    margin-left: 250px;
+}
+
+
+/* CAROUSEL */
+
+.carousel-inner {
+    padding: 0px 80px 0px 80px;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 570px;
+}
+
+
+/* MISSION STATEMENT */
+
+#about-us {
+    margin: 6% 2% 9% 2%;
+    background-color: white;
+    box-shadow: 0 0 20px grey;
+    padding: 2% 1%;
+}
+
+
+/* ANIMAL PROFILES */
+
+.animal-button:hover {
+    transform: scale(1.1);
+}
+
+.info-card button {
+    background-color: rgb(197, 197, 158);
+    box-shadow: 10px 10px 5px grey;
+}
+
+.card-img {
+    border: 2px solid darkcyan;
+}
+
+
+/* PROFILE MODAL */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+.modal-body {
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left:400px;
+    border: 1px solid rgb(54, 51, 51);
+    width:50%;
+    font-size: 20px;
+}
+
+.profile-modal-header {
+    padding: 2px 20px;
+    background-color: #577284;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-shadow: 3px 2px rgb(97, 171, 231);
+    height: 45px;
+}
+
+#animal-name {
+    font-size: 40px;
+}
+
+#animal-image {
+    width: 100%;
+}
+
+#status-img {
+    margin-left: 130px;
+}
+
+#graph {
+    box-shadow: 0 0 20px grey;
+    background-color: #577284b6;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+text {
+    color: black;
+}
+
+.line-path {
+    fill: none;
+    stroke: #89001e;
+    stroke-width: 2px;
+}
+
+.dot {
+    fill: black;
+}
+
+
+/* CLOSE BTN FOR MODALS */
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: white;
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.close:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    animation: animatezoom 0.6s;
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+
+/* THE TOP 10 MOST TITLE */
+
+#intro {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#view {
+    margin-top: -15px;
+    margin-bottom: 50px;
+    font-weight: 670;
+}
+
+
+/* DEFOREST */
+
+#deforest-row {
+    margin-left: 30px;
+    margin-top: 5%;
+}
+
+#deforest-info {
+    margin-top: 100px;
+    padding: 3% 2% 2% 2%;
+    background-color: white;
+    box-shadow: 0 0 20px #454148;
+}
+
+#deforest-first-paragraph {
+    margin-top: 0px;
+}
+
+#deforest-img1 {
+    margin-top: 100px;
+    box-shadow: 10px 10px 5px grey;
+    float: right;
+    margin-right: 40px;
+}
+
+#deforest-img2 {
+    margin-top: 30px;
+    box-shadow: 10px 10px 5px grey;
+    float: right;
+    margin-right: 40px;
+}
+
+
+/* CLIMATE */
+
+#climate-row {
+    margin-right: 30px;
+}
+
+#climate-info {
+    margin-top: 100px;
+    padding: 3% 2% 2% 2%;
+    background-color: white;
+    box-shadow: 0 0 20px #454148;
+}
+
+#climate-first-paragraph {
+    margin-top: 30px;
+}
+
+#climate-title {
+    float: right;
+}
+
+#climate-img1 {
+    margin-top: 150px;
+    margin-left: 40px;
+    box-shadow: 10px 10px 5px grey;
+    float: left;
+}
+
+#climate-img2 {
+    margin-top: 50px;
+    margin-left: 40px;
+    float: left;
+    box-shadow: 10px 10px 5px grey;
+}
+
+
+/* POACHING */
+
+#poaching-row {
+    margin-left: 30px;
+}
+
+#poaching-info {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding: 3% 2% 2% 2%;
+    background-color: white;
+    box-shadow: 0 0 20px #454148;
+}
+
+#poaching-first-paragraph {
+    margin-top: 15px;
+}
+
+#poaching-img1 {
+    margin-top: 100px;
+    box-shadow: 10px 10px 5px grey;
+    float: right;
+    margin-right: 40px;
+}
+
+#poaching-img2 {
+    margin-top: 30px;
+    float: right;
+    margin-right: 40px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#poaching-img3 {
+    margin-top: 30px;
+    float: right;
+    margin-right: 40px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+
+/* SUBSCRIBE AND CONTACT */
+
+#sub-con-row {
+    width: auto;
+}
+
+button {
+    color: white;
+    padding: 14px 20px;
+    margin-bottom: 15px;
+    border: none;
+    width: 100%;
+    background-color: #264E36;
+}
+
+.sub-btn:hover, .sub-send-btn:hover, .contact-btn:hover, .con-send-button:hover {
+    opacity: 0.8;
+}
+
+
+/* SUBSCRIBE */
+
+#subscribe {
+    background-color: white;
+    margin-top: 100px;
+    height: 230px;
+    margin-left: 5%;
+    padding: 15px 15px 15px 60px;
+    box-shadow: 5px 10px 15px #454148;
+}
+
+#subscribe-title {
+    font-size: 40px;
+}
+
+#envelope-icon {
+    width: 60px;
+    float: right;
+    margin: 10px 60px 0px 0px;
+}
+
+
+/* SUBSCRIBE MODAL */
+
+#subscribe-modal-content {
+    background-color: #e7e9e1;
+    width: 40%;
+    height: 55%;
+    margin-left: 500px;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#thx-subscribe-modal-content {
+    background-color: #e7e9e1;
+    width: 40%;
+    height: 40%;
+    margin-left: 500px;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.modal-backdrop {
+    display: none;
+}
+
+#thx-sub-msg {
+    padding: 10px 50px
+}
+
+#sub-logo-words {
+    width: 100px;
+    margin-left: 220px;
+    padding-top: 25px;
+}
+
+#sub-logo-globe {
+    width: 6%;
+    margin-top: -140px;
+    margin-left: 264px;
+}
+
+
+/* CLOSE BTN FOR SUB/CONTACT MODAL */
+
+.sub-con-close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: grey;
+    font-size: 39px;
+    font-weight: 700;
+}
+
+.sub-con-close:hover,
+.sub-con-close:focus {
+    color:red;
+    cursor: pointer;
+}
+
+#subBtn {
+    margin-top: 50px;
+}
+
+
+/* CONTACT US */
+
+#contact-us {
+    background-color: white;
+    margin-top: 100px;
+    height: 230px;
+    margin-left: 5%;
+    padding: 15px 15px 15px 60px;
+    box-shadow: 5px 10px 15px #454148;
+}
+
+#contact-title {
+    font-size: 40px;
+}
+
+#info-icon {
+    width: 60px;
+    float: right;
+    margin: 10px 60px 0px 0px;
+}
+
+.contact-btn {
+    margin-top: 25px;
+}
+
+
+/* CONTACT US MODAL */
+
+#contact-modal-content {
+    background-color: #e7e9e1;
+    margin-left: 500px;
+    width: 40%;
+    height: 75%;
+    margin-top: 4%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#thx-contact-modal-content {
+    background-color: #e7e9e1;
+    width: 40%;
+    height: 40%;
+    margin-left: 500px;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#thx-con-msg {
+    padding: 10px 50px
+}
+
+#con-logo-words {
+    width: 100px;
+    margin-left: 220px;
+    padding-top: 25px;
+}
+
+#con-logo-globe {
+    width: 6%;
+    margin-top: -140px;
+    margin-left: 264px;
+}
+
+.con-send-button {
+    margin-top: 50px;
+}
+
+
+/* FOOTER */
+
+#footer-row {
+    margin: 40px 3% 2% 3%;
+    background-color: white;
+    box-shadow: 0 0 5px #454148;
+    line-height: 5;
+    height: 79px;
+}
+
+#social-logo:hover {
+    transform: scale(1.4);
+}
+
+#footer-logo-words {
+    width: 100px;
+    margin-left: 950px;
+}
+
+#footer-logo-globe {
+    width: 25px;
+    margin-left: -60px;
+    margin-top: -25px;
+}
+
+
+
+
+
+
+
+
+
+
+/* **************************************************************************************************** */
+/* iPad */
+@media screen and (max-width: 770px) {
+    /* HEADER/NAVBAR */
+
+    #navigation {
+        font-weight: 400;
+        font-size:17px;
+    }
+
+    #navbar-logo-words {
+        width: 130px;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+
+    #navbar-logo-globe {
+        width: 40px;
+        margin-top: -110px;
+        margin-left: 65px;
+    }
+
+    #quote {
+        margin: 0px 100px 0px 200px;
+        font-size: 30px;
+    }
+
+    #about-link {
+        display: none;
+    }
+
+    #top10-link {
+        display: none;
+    }
+
+
+    /* CAROUSEL */
+
+    .carousel-inner {
+        padding: 0px 40px 0px 40px;
+    }
+
+    .carousel-img {
+        width: 1300px;
+        height: 200px;
+    }
+
+    #car-row {
+        padding: 30px 20px 0px 20px;
+    }
+
+
+    /* MISSION STATEMENT */
+
+    #about-us {
+        padding: 0px;
+    }
+
+
+    /* PROFILE MODAL */
+
+    .card-img {
+        width: 85px;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .info-card button {
+        padding: 9px;
+    }
+
+    .modal-body {
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+
+    .modal-content {
+        margin-left:155px;
+        width:60%;
+        font-size: 20px;
+    }
+
+    #status-img {
+        margin-left: -20px;
+    }
+
+
+    /* GRAPH INSIDE OF MODAL */
+
+    #animal-svg {
+        margin-left: -20px;
+    }
+
+    .tick {
+        font-size: 10px;
+    }
+
+    .line-path {
+        fill: none;
+        stroke-width: 2px;
+    }
+
+    #header {
+        font-size: 12px;
+        transform: translate(140px, 20px);
+    }
+
+    #headerTwo {
+        font-size: 10px;
+        transform: translate(170px, 40px);
+    }
+
+
+    /* THE TOP 10 MOST TITLE */
+
+    #intro {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    #view {
+        margin-bottom: 20px;
+    }
+
+
+    /* DEFOREST */
+
+    #deforest-row {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #deforest-info {
+        margin-top: 50px;
+    }
+
+    #deforest-first-paragraph {
+        margin-top: -15px;
+    }
+
+    #deforest-img1 {
+        float: left;
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+
+    #deforest-img2 {
+        float: right;
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+
+
+    /* CLIMATE */
+
+    #climate-img1 {
+        float: left;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    #climate-img2 {
+        float: right;
+        margin-top: -220px;
+    }
+
+    #climate-row {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    #climate-info {
+        margin-top: 50px;
+    }
+
+    #climate-first-paragraph {
+        margin-top: 20px;
+    }
+
+
+    /* POACHING */
+
+    #poaching-row {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #poaching-info {
+        margin-top: 50px;
+    }
+
+    #poaching-first-paragraph {
+        margin-top: -15px;
+    }
+
+    #poaching-img1 {
+        margin:50px 400px 20px 0px;
+        float: left;
+    }
+
+    #poaching-img2 {
+        margin: -240px 0px 20px 0px;
+        float: right;
+    }
+    #poaching-img3 {
+        width: 70%;
+        height: 200px;
+        margin: 10px 105px 0px 0px;
+    }
+
+
+    /* SUBSCRIBE AND CONTACT */
+
+    #sub-con-row {
+        width: auto;
+        margin-bottom: -5%
+    }
+
+    button {
+        color: white;
+        border: none;
+        width: 100%;
+        background-color: #042b2c;
+    }
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+
+    /* SUBSCRIBE */
+
+    #subscribe {
+        margin-top: 50px;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        padding: 10px 10px 0px 10px;
+    }
+
+    #subscribe-title {
+        font-size: 25px;
+    }
+
+    #envelope-icon {
+        width:35px;
+        margin:0px 10px 0px 0px;
+    }
+
+    /* SUBSCRIBE MODAL */
+
+    #subscribe-modal-content {
+        width: 50%;
+        height: 40%;
+        margin-left: 200px;
+    }
+
+    #thx-subscribe-modal-content {
+        width: 50%;
+        height: 40%;
+        margin-left: 200px;
+    }
+    
+    #thx-sub-msg {
+        padding: 10px 30px;
+        font-size: 25px;
+    }
+
+    #sub-logo-words {
+        width: 100px;
+        margin-left: 120px;
+    }
+
+    #sub-logo-globe {
+        width: 7%;
+        margin-top: -130px;
+        margin-left: 170px;
+    }
+
+
+    /* CONTACT US */
+
+    #contact-us {
+        margin-top: 50px;
+        margin-left: 5%;
+        margin-bottom: 10%;
+        padding: 10px 10px 0px 10px;
+    }
+
+    #contact-title {
+        font-size: 25px;
+    }
+
+    #info-icon {
+        width:35px;
+        margin:0px 10px 0px 0px;
+    }
+
+
+    /* CONTACT US MODAL */
+
+    #contact-modal-content {
+        width: 50%;
+        height: 60%;
+        margin-left: 200px;
+    }
+
+    #thx-contact-modal-content {
+        width: 50%;
+        height: 30%;
+        margin-left: 200px;
+    }
+    
+    #thx-con-msg {
+        padding: 10px 30px;
+        font-size: 25px;
+    }
+
+    #con-logo-words {
+        width: 100px;
+        margin-left: 120px;
+    }
+
+    #con-logo-globe {
+        width: 7%;
+        margin-top: -130px;
+        margin-left: 170px;
+    }
+
+
+    /* FOOTER */
+
+    #footer-row {
+        margin: 0px 2% 2% 2%;
+        line-height: 5;
+        height: 70px;
+    }
+
+    .foot-twitter {
+        width: 20px;
+        padding-left:10px
+    }
+
+    .foot-face {
+        width: 20px;
+        padding-left:10px
+    }
+
+    .foot-google {
+        width: 20px;
+        padding-left:10px
+    }
+
+    #footer-logo-words {
+        width: 90px;
+        margin-left: 250px;
+    }
+
+    #footer-logo-globe {
+        width: 30px;
+        margin-left: -58px;
+        margin-top: -26px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* ***************************************************************************************************** */
+/* iPhone X */
+@media screen and (max-width: 380px) {
+    /* HEADER/NAVBAR */
+
+    .nav-link {
+        padding: 0px;
+        margin-left: 15px;
+    }
+
+    #contact-link {
+        margin-left: 0px;
+    }
+
+    #navigation {
+        font-size:10px;
+    }
+
+    .navbar {
+        padding: 0px;
+    }
+
+    #about {
+        padding: 5px;
+    }
+
+    #about p {
+        margin-bottom: 5px;
+    }
+
+    #navbar-logo-words {
+        width: 80px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    #navbar-logo-globe {
+        width: 25px; 
+        float: left;
+        margin: -60px 800px 0px 57px;
+    }
+
+    #quote {
+        font-size: 15px;
+        margin: -80px 0px 0px 150px;
+        word-spacing: 3px;
+    }
+
+    #about-link {
+        display: none;
+    }
+
+    #top10-link {
+        display: none;
+    }
+
+
+    /* CAROUSEL */
+
+    .carousel-img {
+        width: 300px;
+        height: 130px;
+    }
+
+    #car-row {
+        padding: 20px 0px 10px 0px;
+    }
+
+
+    /* MISSION STATEMENT */
+
+    #about-us {
+        margin:5px 0px;
+        font-size: 10px;
+    }
+
+    .animal-button {
+        width: 100px;
+    }
+
+    .card-img {
+        width: 82px;
+        height: 82px;
+    }
+
+    .card-body {
+        padding: 10px 0px 0px 0px;
+    }
+
+    #view {
+        font-weight: 500;
+    }
+
+    .col {
+        padding: 0px;
+    }
+
+    #panda-btn {
+        margin-left: 14px;
+    }
+
+    #tiger-btn {
+        margin-left: 14px;
+    }
+
+    #elephant-btn {
+        margin-left: 13px;
+    }
+
+    #rhino-btn {
+        margin-left: 75px;
+    }
+
+    #leopard-btn {
+        margin-left: 15px;
+    }
+
+    #red-btn {
+        margin-left: 14px;
+    }
+
+    #polar-btn {
+        margin-left: 14px;
+    }
+
+    #peng-btn {
+        margin-left: 13px;
+    }
+
+    #orang-btn {
+        margin-left: 75px;
+    }
+
+    #gorilla-btn {
+        margin-left: 15px;
+    }
+
+
+    /* PROFILE MODAL */
+
+    .modal-body {
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
+    .modal-content {
+        margin-left:30px;
+        width:80%;
+        font-size: 12px;
+    }
+
+    .profile-modal-header {
+        padding: 2px 20px;
+        color: white;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        text-shadow: 3px 2px rgb(97, 171, 231);
+        height: 35px;
+    }
+
+    #animal-name {
+        font-size: 30px;
+    }
+
+    #animal-image {
+        width: 90%;
+        margin-left: 12px;
+    }
+
+    #status-img {
+        margin-left: 40px;
+        width:200px;
+    }
+
+
+    /* GRAPH INSIDE OF MODAL */
+
+    #animal-svg {
+        margin-left: -20px;
+    }
+
+    .tick {
+        font-size: 6px;
+    }
+
+    #header {
+        font-size: 9px;
+        transform: translate(90px, 20px);
+    }
+
+    #headerTwo {
+        font-size: 8px;
+        transform: translate(110px, 30px);
+    }
+
+    #graph {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .line-path {
+        /* fill: none; */
+        stroke-width: 2px;
+    }
+
+    .dot {
+        display: none;
+    }
+
+    #intro {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+
+
+    /* DEFOREST */
+
+    u {
+        font-size: 15px
+    }
+
+    #deforest-row {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #deforest-info {
+        margin-top: 30px;
+        font-size: 10px;
+    }
+
+    #deforest-img1 {
+        width: 80%;
+        margin: 30px 30px 20px 30px;
+        float: none;
+    }
+
+    #deforest-img2 {
+        width: 80%;
+        margin: 0px 30px 30px 30px;
+        float: none;
+    }
+
+
+    /* CLIMATE */
+
+    #climate-row {
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+
+    #climate-info {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    #climate-first-paragraph {
+        margin-top: 21px;
+    }
+
+    #climate-img1 {
+        width: 80%;
+        margin: 30px 30px 20px 30px;
+    }
+
+    #climate-img2 {
+        width: 80%;
+        margin: 0px 30px 20px 30px;
+    }
+
+
+    /* POACHING */
+
+    #poaching-row {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    #poaching-info {
+        margin-top: 30px;
+        font-size: 10px;
+    }
+
+    #poaching-img1 {
+        width: 80%;
+        margin: 20px 30px 20px 30px;
+    }
+
+    #poaching-img2 {
+        width: 80%;
+        margin: 0px 30px 20px 30px;
+    }
+
+    #poaching-img3 {
+        width: 80%;
+        margin: 0px 30px 0px 30px;
+        height: 167px;
+    }
+
+
+    /* SUBSCRIBE AND CONTACT */
+
+    #sub-con-row {
+        width: 100%;
+    }
+
+    .sub-btn, .sub-send-btn, .contact-btn, .con-send-button {
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        width: 100%;
+        background-color: #042b2c;
+    }
+
+
+    /* SUBSCRIBE */
+
+    #subscribe {
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+
+    #subscribe-title {
+        font-size: 20px;
+    }
+
+    #envelope-icon {
+        width:35px;
+        float:right;
+        margin-top:-5px;
+    }
+
+
+    /* SUBSCRIBE MODAL */
+
+    #subscribe-modal-content {
+        width: 70%;
+        height: 40%;
+        margin-left: 60px;
+    }
+
+    #thx-subscribe-modal-content {
+        width: 70%;
+        height: 34%;
+        margin-left: 60px;
+    }
+    
+    #thx-sub-msg {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    #sub-logo-words {
+        width: 60px;
+        margin-left: 75px;
+    }
+
+    #sub-logo-globe {
+        width: 7%;
+        margin-top: -80px;
+        margin-left: 103px;
+    }
+
+
+    /* CONTACT US */
+
+    #contact-us {
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+
+    #contact-title {
+        font-size: 20px;
+    }
+
+    #info-icon {
+        width: 30px;
+        float:right;
+        margin-top:5px;
+    }
+
+
+    /* CONTACT US MODAL */
+
+    #contact-modal-content {
+        width: 70%;
+        height: 55%;
+        margin-left: 60px;
+    }
+
+    #conBtn {
+        margin-top: 20px;
+    }
+
+    #thx-contact-modal-content {
+        width: 70%;
+        height: 27%;
+        margin-left: 60px;
+    }
+    
+    #thx-con-msg {
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+
+    #con-logo-words {
+        width: 60px;
+        margin-left: 75px;
+    }
+
+    #con-logo-globe {
+        width: 7%;
+        margin-top: -80px;
+        margin-left: 103px;
+    }
+
+
+    /* FOOTER */
+
+    #footer-row {
+        margin: 20px 2% 2% 2%;
+        line-height: 4;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .foot-twitter {
+        width: 20px;
+        padding-left:10px
+    }
+
+    .foot-face {
+        width: 20px;
+        padding-left:10px
+    }
+
+    .foot-google {
+        width: 20px;
+        padding-left:10px
+    }
+
+    #footer-logo-words {
+        width: 45px;
+        margin-left:40px;
+    }
+
+    #footer-logo-globe {
+        width: 15px;
+        margin-left: 275px;
+        margin-top:-95px;
+    }
+}
